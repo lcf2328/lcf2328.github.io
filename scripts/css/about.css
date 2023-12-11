@@ -1,0 +1,177 @@
+/* 
+Author: Vanshika  Saxena
+Date: 29th September'2023
+File Name: contact.css
+*/
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for body */
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles rules for navigation area */
+nav {
+    background-color: #fff;
+    background: linear-gradient(to left, #fff, #CCCAC8);
+    padding: 2em 0em;
+    height: 50px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: none;
+}
+
+nav li:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: #663300;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #5C534B;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav li a:visited{
+    color: #663300;
+}
+
+nav img {
+    height: 10em;
+    width: 10em;
+    margin: 10px;
+    border-radius: 50%;
+    text-align: left;
+}
+
+/* Style rules for main content */
+
+h1 {
+    text-align: center;
+    color: #663300;
+    font-weight: 100;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #663300;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+#story{
+    margin: 0 70px;
+    text-align: center;
+    font-size: 20px;
+    color: #5C534B;
+}
+
+#bg-content {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    padding: 0 40px;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#bg-content p { 
+    padding: 0;
+    font-size: 17px;
+    text-align: left;
+    color: #5C534B;
+}
+
+img {
+    max-width: 100%;
+    padding: 20px;
+    flex-basis: 150%;
+}
+
+#reasons {
+    width: 100%;
+    display: inline-flex;
+}
+
+#list {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-basis: 100%;
+    margin: 10px;
+}
+
+ol li {
+    padding: 15px;
+    color: #663300;
+}
+
+ol li:nth-child(odd) {
+    background: linear-gradient(to left, #fff, #CCCAC8);
+}
+
+ol li:nth-child(even) {
+    background: linear-gradient(to right, #fff, #CCCAC8);
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #BDB8B2;
+    color: #5C534B;
+    padding: 4% 0% 2% 0%;
+    font-weight: bold;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer a {
+    color: #663300;
+    text-decoration: none;
+    text-decoration: underline;
+
+}
+
+footer a:hover {
+    box-shadow: rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-content {
+    text-align: center;
+    color: #663300;
+    padding-bottom: 40px;
+    font-size: 1.5em;
+}

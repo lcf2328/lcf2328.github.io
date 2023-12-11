@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<!-- This website is created by : Vanshika saxena
+    Student Number : C0918181 -->
+
+<html lang="en">
+
+<head>
+    <title>Blaze Corporation:Contact Us</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="scripts/css/contact.css">
+</head>
+
+<body>
+    <nav>
+        <div id="conatiner">
+            <!-- <div id="logo">
+                <a href="index.html"><img src="C:\Users\vansh\OneDrive\CSD 1103 Front-End Web Development I\Term Project\Project_c0918181\images\logo_temp.png"></a>
+            </div> -->
+            <div id="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="training.html">Training</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h1><span class="customer-heading"> Customer Care</span></h1>
+        <h3>Your satisfaction drives us: Reach out and experience our commitment to personalized care and dedicated
+            support</h3>
+        <div id="detail-container">
+            <div id="company-contact">
+                <h2>Speak with our Fireplace Expert</h2>
+                <ol type="I">
+                    <li>We respond quickest by phone call.</li>
+                    <li>Emails are slowest form of commuication.</li>
+                    <li>For tech supportwe ask you that please call us when you're in front of the fireplace so we can
+                        guide you through troubleshoot your product (if required).</li>
+                </ol>
+            </div>
+            <div id="operating-hours">
+                <h2>We can be reached seven days a week during normal business hours.</h2>
+                <p><span class="phone"> <a href="tel:+1112223333"> &#9742; &nbsp;&nbsp;&nbsp; 111-222-3333 </a></span></p>
+                <p><span class="email"> <a href="mailto:sales@blazecorp.com"> &#9993;&nbsp;&nbsp;&nbsp; sales@blazecorp.com </a></span></p>
+            </div>
+        </div>
+                <div id="form-container">
+                    <h2>Send Us Your Inquiry!</h2>
+                    <form action="contact.html" method="post" id="form">
+                        <fieldset>
+                            <legend>Personalia:</legend><br>
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="John" required autofocus><br><br>
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+                            <label for="dob">Date Of Birth:</label>
+                            <input type="date" id="dob" name="dob"><br><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Contact Information:</legend><br>
+                            <label for="pnumber">Phone number:</label>
+                            <input type="number" id="pnumber" name="pnumber" maxlength="10"
+                                placeholder="1234567890"><br><br>
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email" maxlength="70"
+                                placeholder="abc@gmail.com"><br><br>
+                            <label for="contact-choice">Contact Choice:</label><br><br>
+                            <input type="checkbox" id="pnumber" name="pnumber" value="phone number">
+                            <label for="pnumber">Phone number</label>
+                            <input type="checkbox" id="email" name="email" value="Email">
+                            <label for="email">Email</label><br><br>
+                            <label for="customer-type">Please indicate if this inquiry is from:</label><br><br>
+                            <input type="radio" id="personal" name="customer-type" value="Personal" checked>
+                            <label for="phone-number">Individual/personal</label><br>
+                            <input type="radio" id="company" name="customer-type" value="Company">
+                            <label for="email">Organization/Company</label><br><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Details:</legend><br>
+                            <label for="inquiry-type">What category does your inquiry fall into:</label>
+                            <select id="inquiry-type" name="inquiry-type">
+                                <option value="Sales">Sales Inquiry</option>
+                                <option value="customer">Customer Support</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="general" selected>General Inquiry</option>
+                                <option value="other">Other</option>
+                            </select><br><br>
+                            <label for="inquiry">Inquiry/Message:</label><br>
+                            <textarea id="inquiry" name="inquiry" maxlength="500"
+                                placeholder="Tell us briefly about your Inquiry/Message" rows="6"
+                                cols="45"></textarea><br><br>
+                        </fieldset>
+                    </form>
+                    <div id="button">
+                        <div id="submit-button"> <button type="submit" value="Submit" form="form">Submit</button>
+                        </div>
+                        <div id="reset-button"> <button type="reset" value="Reset" form="form">Reset</button>
+                        </div>
+                    </div>
+                </div><br><br>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2091. All Rights Reserved.</p>
+        <p><a href="mailto:info@blazecorp.co">Request Information</a></p>
+        <p>Vanshika Saxena &nbsp; &nbsp; C0918181</p>
+    </footer>
+</body>
+
+</html>
