@@ -175,3 +175,74 @@ footer a:hover {
     padding-bottom: 40px;
     font-size: 1.5em;
 }
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 0.5em 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+
+    #story, #bg-content {
+        margin: 0 10px;
+    }
+
+    img {
+        margin: 10px 0;
+    }
+
+    #reasons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Media Queries for Mobile Viewports */
+@media only screen and (max-width: 480px) {
+    nav {
+        padding: 0.3em 0;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+        padding: 0.3em;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        margin: 5px 0;
+    }
+
+    #story, #bg-content {
+        margin: 0 5px;
+    }
+
+    #reasons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ol li {
+        padding: 5px;
+    }
+
+    footer {
+        padding: 1% 0;
+        font-size: 0.75em;
+    }
+}
